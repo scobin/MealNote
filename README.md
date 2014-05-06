@@ -1,3 +1,5 @@
+MealNote
+=================================
 食事の内容を記録するアプリ。
 
 機能：<br>
@@ -5,6 +7,8 @@
 ○　記録内容の閲覧及び編集ができる。<br>
 ○　集計機能。評価ランキング、食べた回数ランキング。<br>
 ○　気に入り。写真の閲覧。
+
+![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-00-22.jpg)
 
 LOG<br>
 2013/9/13　作成
