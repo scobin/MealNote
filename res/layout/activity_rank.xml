@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScoreRankAct" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/title_background" >
+
+        <ImageButton
+            android:id="@+id/imBtnScoreExit"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ib_return" />
+
+        <TextView
+            android:id="@+id/txtTile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="順位発表"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_titlebar"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnScoreOptions"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ib_options" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="評価順位"
+        android:textColor="@color/red"
+        android:textSize="@dimen/word_size_large" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#B8B8B8"
+        android:visibility="visible" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="順位"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size_normal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="画像"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size_normal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="詳細情報"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size_normal" />
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listScore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.89" >
+
+    </ListView>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#B8B8B8"
+        android:visibility="visible" />
+
+</LinearLayout>

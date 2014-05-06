@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical" >
+
+        <ImageView
+            android:id="@+id/img_m030_RecMenuMeal"
+            android:layout_width="480dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape1"
+            android:scaleType="center"
+            android:src="@drawable/noimg96" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/imgBtn_m030_UseCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/camera48" />
+
+            <CheckBox
+                android:id="@+id/cb_m030_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="@string/str_m030_check_favorite" />
+
+        </RelativeLayout>
+        
+        <View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" />    
+ 
+    	<TableRow
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+
+        	<ImageButton
+        	    android:id="@+id/imgBtn_m030_AddMenuDate"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:background="@drawable/date48"
+        	    android:src="@drawable/date48" />
+        	
+        	<TextView
+        	    android:id="@+id/txt_m030_AddMenuDate"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center_vertical" />
+
+    	</TableRow>
+
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+    	
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+	
+    	    <ImageButton
+    	        android:id="@+id/imagBtn_m030_AddMenuFood"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:background="#00000000"
+    	        android:src="@drawable/ic_logo" />
+
+        	<EditText
+        	    android:id="@+id/etxt_m030_AddMenuFood"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:ems="10"
+        	    android:hint="@string/str_m030_etxt_food" />
+
+    	</TableRow>
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+
+        	<ImageButton
+        	    android:id="@+id/imgBtn_m030_AddMenuPlace"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:background="#00000000"
+        	    android:src="@drawable/place48" />
+
+        	<EditText
+        	    android:id="@+id/etxt_m030_AddMenuPlace"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:ems="10"
+        	    android:hint="@string/str_m030_etxt_place" />
+
+    	</TableRow>
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+	
+    	    <ImageButton
+    	        android:id="@+id/imgBtn_m030_AddMenuPeople"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:background="#00000000"
+    	        android:src="@drawable/people48" />
+
+        	<EditText
+        	    android:id="@+id/etxt_m030_AddMenuPeople"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:ems="10"
+        	    android:text="@string/str_m030_etxt_people" />
+	
+    	    <ImageButton
+    	        android:id="@+id/imgBtn_m030_AddMenuPeopleAdd"
+    	        style="?android:attr/buttonStyleSmall"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:background="#00000000"
+    	        android:src="@drawable/addicon36" />
+        	
+    	</TableRow>
+
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" 
+        	android:id="@+id/lLPeople">
+    	</LinearLayout>
+
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+ 
+        	<ImageView
+        	    android:id="@+id/imgAdd_m030_MenuPrice"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:background="#00000000"
+        	    android:src="@drawable/price48" />
+	
+    	    <EditText
+        	    android:id="@+id/etxt_m030_AddMenuPrice"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:ems="10"
+            	android:inputType="numberDecimal" >
+	
+    	    </EditText>
+        	
+    	</TableRow>
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+	
+    	    <ImageView
+    	        android:id="@+id/img_m030_AddMenuScore"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:background="#00000000"
+    	        android:src="@drawable/score48" />
+	
+    	    <EditText
+    	        android:id="@+id/etxt_m030_AddMenuScore"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:ems="10"
+    	        android:hint="@string/str_m030_etxt_score"
+    	        android:inputType="numberSigned" />
+	
+    	</TableRow>
+
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+        	
+        	<TextView
+        	    android:id="@+id/txt_m030_AddMenuMemo"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/str_m030_memo"
+        	    android:textSize="20sp" />
+    	</TableRow>
+	
+    	<EditText
+        	android:id="@+id/etxt_m030_AddMenuMemo"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:ems="10"
+        	android:text="@string/str_m030_etxt_memo"
+        	android:inputType="textMultiLine" />
+	
+    	<View  
+            android:layout_width="fill_parent"  
+            android:layout_height="2dp"  
+            android:background="#EBFFFF"  
+            android:visibility="visible" /> 
+
+    	<TableRow
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10dp" >
+	
+    	    <Button
+    	        android:id="@+id/btn_m030_AddMenuOK"
+    	        android:layout_width="0dp"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginRight="50dp"
+    	        android:layout_weight="1"
+    	        android:text="@string/btn_ok" />
+	
+    	    <Button
+        	    android:id="@+id/btn_m030_AddMenuCancel"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:text="@string/btn_cancel" />
+    	</TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

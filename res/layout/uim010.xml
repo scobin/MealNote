@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_m010_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bp_m010"
+    android:orientation="vertical"
+    tools:context=".UIm010" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background" >
+
+        <TextView
+            android:id="@+id/title_meal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/title_ui_meal_top"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_titlebar" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_m010_record"
+                android:layout_width="174dp"
+                android:layout_height="162dp"
+                android:background="@drawable/ib_record" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_m010_rank"
+                android:layout_width="174dp"
+                android:layout_height="162dp"
+                android:background="@drawable/ib_rank" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_m010_favorite"
+                android:layout_width="174dp"
+                android:layout_height="162dp"
+                android:background="@drawable/ib_favorite" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_m010_record"
+                android:textSize="@dimen/word_size_normal" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_m010_rank"
+                android:textSize="@dimen/word_size_normal" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_m010_favorite"
+                android:textSize="@dimen/word_size_normal" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

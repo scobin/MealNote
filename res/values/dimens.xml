@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="word_titlebar">40sp</dimen>
+    <dimen name="word_size_normal">20sp</dimen>
+    <dimen name="word_size_large">36sp</dimen>
+</resources>

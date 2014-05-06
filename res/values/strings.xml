@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MealRecord</string>
+    <string name="menu_settings">Settings</string>
+    <string name="db_name_meal">MealDB</string>
+    <!-- 画面のタイトル -->
+    <string name="title_ui_meal_top">Meal</string>
+    <!-- ボタン文字 -->
+    <string name="btn_no">いいえ</string>
+    <string name="btn_yes">はい</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_m020_add">新規登録</string>
+    <string name="btn_m020_exit">前画面へ</string>
+    <string name="btn_m020_all_delete">全部削除</string>
+
+    <!-- 画面文字 -->
+    <string name="str_m000_mark_circle">●</string>
+    <string name="str_m000_number">No.</string>
+    <string name="str_m000_date">日時</string>
+    <string name="str_m000_food">食べ物</string>
+    <string name="str_m000_place">場所</string>
+    <string name="str_m000_score">評価</string>
+    <string name="str_m000_people">誰と</string>
+    <string name="str_m000_price">値段</string>
+    <string name="str_m000_memo">メモ</string>
+    <string name="str_m000_data_total_number">件数:{0}/100</string>
+    <string name="str_m010_record">食事記録</string>
+    <string name="str_m010_rank">順位発表</string>
+    <string name="str_m010_favorite">お気に入り</string>
+    <string name="str_m020_information_list">記録詳細一覧</string>
+    <string name="str_m030_check_favorite">お気に入り</string>
+    <string name="str_m030_etxt_food">料理名…等</string>
+    <string name="str_m030_etxt_place">都市名、店名等</string>
+    <string name="str_m030_etxt_people">自分</string>
+    <string name="str_m030_etxt_score">0~100</string>
+    <string name="str_m030_memo">メモ:</string>
+    <string name="str_m030_etxt_memo">無</string>
+    <string name="str_m030_error_message1">ファイル生成失敗</string>
+    <string name="str_m030_error_message2">SDカード存在しません！</string>
+    <string name="str_m040_information_list">Favorite</string>
+    <string name="str_m040_information_list_jp">お気に入り一覧</string>
+    <string name="str_m040_page">NO.{0}～{1}</string>
+    <string name="str_m050_time">時間：{0}</string>
+    <string name="str_m050_food">料理：{0}</string>
+    <string name="str_m050_price">値段：{0}</string>
+    <string name="str_m050_score">評価：{0}</string>
+    <string name="str_m050_place">場所：{0}</string>
+    <string name="str_m050_more">詳細>></string>
+    <string name="msg_m020_title_delete">削除確認!!</string>
+    <string name="msg_m020_delete_qury">全部削除しますか？</string>
+    <string name="msg_m030_start_camera">カメラ起動中．．．</string>
+    <string name="msg_m030_save_photo">写真を保存しました。</string>
+    <string name="toast_m020_list_count_is_max">記録件数は最大値となりますので、新規記録ができません！</string>
+
+
+</resources>
