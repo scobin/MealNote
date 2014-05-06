@@ -8,20 +8,20 @@ MealNote
 ○　集計機能。評価ランキング、食べた回数ランキング。<br>
 ○　気に入り。写真の閲覧。
 
-マイン画面
+マイン画面<br>
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-00-22.jpg)
 
-閲覧画面
+閲覧画面<br>
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-00-30.jpg)
 
-記録登録と編集
+記録登録と編集<br>
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-00-35.jpg)
 
-集計画面
+集計画面<br>
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-00-57.jpg)
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-01-03.jpg)
 
-気に入り
+気に入り<br>
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-01-10.jpg)
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-01-14.jpg)
 ![myshot](https://raw.githubusercontent.com/scobin/MealNote/master/Screenshot_2014-05-06-12-01-23.jpg)
