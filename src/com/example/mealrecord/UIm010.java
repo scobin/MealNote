@@ -1,3 +1,6 @@
+/**
+ * メイン画面
+ **/
 package com.example.mealrecord;
 
 import android.os.Bundle;
