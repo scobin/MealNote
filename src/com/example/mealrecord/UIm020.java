@@ -1,3 +1,6 @@
+/**
+ * 記録の閲覧画面
+ */ 
 package com.example.mealrecord;
 
 
