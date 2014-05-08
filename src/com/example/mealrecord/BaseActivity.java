@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+/**
+ * アクティビティの基本クラス
+ */ 
 public class BaseActivity extends Activity{
 	protected MyApplication mMyApp;
 
