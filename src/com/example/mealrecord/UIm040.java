@@ -1,3 +1,6 @@
+/**
+ * お気に入り画面
+ */ 
 package com.example.mealrecord;
 
 
