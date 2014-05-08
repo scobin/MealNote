@@ -8,7 +8,7 @@ import android.graphics.Matrix;
 import android.media.ExifInterface;
 
 /**
- * tool
+ * DB作成、文字列の処理、画像の処理等関数を格納するクラス
  * @author kawachi
  *
  */
