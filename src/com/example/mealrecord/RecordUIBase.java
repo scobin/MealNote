@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 /**
  * 記録UIの基本クラス
- * @author kawachi
+ * @author scobin
  *
  */
 public class RecordUIBase extends UIBase implements AdapterView.OnItemClickListener{
