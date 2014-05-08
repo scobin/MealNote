@@ -1,6 +1,3 @@
-/**
- * お気に入り画面
- */ 
 package com.example.mealrecord;
 
 
@@ -21,7 +18,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-
+/**
+ * お気に入り画面
+ */ 
 public class UIm040 extends FavoriteUIBase {
 
 	/** record the total number of the list */
