@@ -1,3 +1,6 @@
+/**
+ * 新規記録の追加や編集画面
+ */ 
 package com.example.mealrecord;
 
 import java.io.File;
