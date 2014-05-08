@@ -174,22 +174,7 @@ public class UIm030 extends RecordUIBase {
 				//画像がなし
 				imgRecMenuMeal.setImageResource(R.drawable.noimg96);
 			}
-			/*
-			if(data!=null){
-				isGotPhoto = true;
-				Bundle extras = data.getExtras();//撮った写真のデータの取得
-			    Bitmap bmp = (Bitmap) extras.get("data");
-			   
-			    //写真の方向を取得して変更する。
-			    bmp = Utility.checkImageDirection(MealConst.PHOTO_DIR+MealConst.PHOTO_FILENAME, bmp);
-			    if(bmp!=null){
-			    	//ImageViewに載せる
-				    imgRecMenuMeal.setImageBitmap(bmp);
-				    imgRecMenuMeal.setScaleType(ScaleType.CENTER_CROP);//ScaleTypeの設定
-			    }
-			    
-			}
-			*/
+			
 		}
 		
 	}
