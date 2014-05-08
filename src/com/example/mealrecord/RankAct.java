@@ -34,6 +34,9 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+/**
+ * 順位発表の画面
+ */ 
 public class RankAct extends UIBase {
 
 	ListView listScore;
@@ -118,13 +121,11 @@ public class RankAct extends UIBase {
 
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
 		super.onStart();
 	}
 
 	@Override
 	protected void onStop() {
-		// TODO Auto-generated method stub
 		super.onStop();
 	}
 
@@ -132,7 +133,6 @@ public class RankAct extends UIBase {
 
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
 			switch(v.getId()){
 			case R.id.imBtnScoreExit:
 				finish();
