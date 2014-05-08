@@ -1,10 +1,10 @@
-/**
- * 記録の閲覧画面
- */ 
+
 package com.example.mealrecord;
 
 
-
+/**
+ * 記録の閲覧画面
+ */ 
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
