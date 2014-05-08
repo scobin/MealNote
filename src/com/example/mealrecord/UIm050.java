@@ -1,3 +1,6 @@
+/**
+ * お気に入りの詳細内容画面
+ */ 
 package com.example.mealrecord;
 
 import android.graphics.Bitmap;
@@ -16,8 +19,7 @@ public class UIm050 extends FavoriteUIBase {
 
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
-		super.onStart();
+		//写真の設定
 		String imgPath=MealConst.PHOTO_DIR + "/" + Utility.makeMealImageFileName(mList.get(position).get(MealConst.COL_MEAL_DATE)+mList.get(position).get(MealConst.COL_MEAL_FOOD));
 		BitmapFactory.Options options = new BitmapFactory.Options();
 		options.inSampleSize = 2;
@@ -31,7 +33,7 @@ public class UIm050 extends FavoriteUIBase {
 			getImageView(R.id.img_m050_pic).setImageResource(R.drawable.noimg96);
 			getImageView(R.id.img_m050_pic).setScaleType(ImageView.ScaleType.CENTER);
 		}
-		
+		//詳細内容の設定
 		getTextView(R.id.txt_m050_time).setText(Utility.getMessage(R.string.str_m050_time, mList.get(position).get(MealConst.COL_MEAL_DATE)));
 		getTextView(R.id.txt_m050_price).setText(Utility.getMessage(R.string.str_m050_price,mList.get(position).get(MealConst.COL_MEAL_PRICE)));
 		getTextView(R.id.txt_m050_score).setText(Utility.getMessage(R.string.str_m050_score,mList.get(position).get(MealConst.COL_MEAL_SCORE)));
@@ -41,7 +43,6 @@ public class UIm050 extends FavoriteUIBase {
 
 	@Override
 	protected void onStop() {
-		// TODO Auto-generated method stub
 		super.onStop();
 	}
 	
