@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 
+/**
+ * アプリの全般内容を設定と格納するクラス
+ */ 
 public class MyApplication extends Application {
     private static MyApplication instance;
     private static Context context;
