@@ -5,13 +5,15 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
+/**
+ * データベースのヘルパークラス
+ */ 
 public class DbHelper extends SQLiteOpenHelper{
 
 	private static final int VERSION = 1; 
 	public DbHelper(Context context, String name, CursorFactory factory,
 			int version) {
 		super(context, name, factory, version);
-		// TODO Auto-generated constructor stub
 	}
 	public DbHelper(Context context,String name) {
 		   this(context, name, null, VERSION);
