@@ -29,27 +29,23 @@ public class UIBase extends BaseActivity implements OnClickListener,OnMenuItemCl
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
 		
 	}
 
 	@Override
 	protected void onPause() {
-		// TODO Auto-generated method stub
 		super.onPause();
 		
 	}
 
 	@Override
 	public boolean onMenuItemClick(MenuItem item) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
 		
 	}
 	
