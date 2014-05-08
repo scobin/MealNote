@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SimpleCursorAdapter;
 
+/**
+ * カーソルアダプター(画像検索用)
+ */ 
 public class CursorAdapter extends SimpleCursorAdapter{
 
 	private Cursor cr;
