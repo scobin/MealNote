@@ -5,8 +5,8 @@ import java.io.File;
 import android.os.Environment;
 
 /**
- * 
- * @author kawachi
+ * 定数を格納するクラス
+ * @author scobin
  *
  */
 public class MealConst {
