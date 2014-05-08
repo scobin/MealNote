@@ -19,6 +19,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * 記録閲覧リストのアダプター
+ */ 
 public class UIm004ListAdapter extends BaseAdapter{
 
 	private ArrayList<HashMap<String,String>> list=null;
@@ -32,25 +35,21 @@ public class UIm004ListAdapter extends BaseAdapter{
 	}
 	@Override
 	public int getCount() {
-		// TODO Auto-generated method stub
 		return list.size();
 	}
 
 	@Override
 	public Object getItem(int position) {
-		// TODO Auto-generated method stub
 		return list.get(position);
 	}
 
 	@Override
 	public long getItemId(int position) {
-		// TODO Auto-generated method stub
 		return position;
 	}
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		// TODO Auto-generated method stub
 		View view=null;
 		ViewTag viewTag;
 		if(convertView == null){
