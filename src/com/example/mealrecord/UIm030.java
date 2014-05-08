@@ -1,6 +1,3 @@
-/**
- * 新規記録の追加や編集画面
- */ 
 package com.example.mealrecord;
 
 import java.io.File;
@@ -45,6 +42,9 @@ import android.widget.DatePicker.OnDateChangedListener;
 import android.widget.TimePicker.OnTimeChangedListener;
 import android.widget.Toast;
 
+/**
+ * 新規記録の追加や編集画面
+ */ 
 @SuppressLint("HandlerLeak")
 public class UIm030 extends RecordUIBase {
 
