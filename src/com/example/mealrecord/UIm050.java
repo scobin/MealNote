@@ -1,6 +1,3 @@
-/**
- * お気に入りの詳細内容画面
- */ 
 package com.example.mealrecord;
 
 import android.graphics.Bitmap;
@@ -8,7 +5,9 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-
+/**
+ * お気に入りの詳細内容画面
+ */ 
 public class UIm050 extends FavoriteUIBase {
 
 	@Override
